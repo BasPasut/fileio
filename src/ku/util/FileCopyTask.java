@@ -81,7 +81,6 @@ public class FileCopyTask implements Runnable {
 		// If 'in' is null then throw a RuntimeException 
 		// so the caller will know that filename could not be opened.
 		
-		//TODO If in (InputStream) is null, throw a RuntimeException with a message.
 		if(in == null) throw new RuntimeException("InputStream cannot be null");
 	}
 	
